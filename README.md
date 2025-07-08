@@ -20,12 +20,6 @@ The app allows the user to enter any number, and it displays the square of that 
 
 ---
 
-## 📸 Screenshot:
-![Image](Screenshot (99).png)
-
-
----
-
 
 ## 🧠 How it works:
 
