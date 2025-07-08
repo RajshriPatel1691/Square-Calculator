@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Square Calculator</title>
+
+    <style>
+        body {
+             text-align: center;
+            margin-top: 50px;
+            font-family: Arial;
+            background-color: #f0f8ff; 
+        }
+
+        input, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Square Calculator</h2>
+
+    <input type="number" id="numberInput" placeholder="Enter a number">
+
+    <button onclick="calculateSquare()">Find Square</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        function calculateSquare() {
+            let num = parseFloat(document.getElementById('numberInput').value);
+
+            if (isNaN(num)) {
+                document.getElementById('result').innerText = "Please enter a valid number!";
+                return;
+            }
+
+            let square = num * num;
+
+            document.getElementById('result').innerText = `Square of ${num} is ${square}`;
+        }
+    </script>
+
+</body>
+</html>
