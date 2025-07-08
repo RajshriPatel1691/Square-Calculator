@@ -22,7 +22,7 @@ The app allows the user to enter any number, and it displays the square of that 
 
 ## 📸 Screenshot:
 
-![screenshot](screenshot.png)  
+![screenshot](screenshot (99).png)  
 
 
 ---
